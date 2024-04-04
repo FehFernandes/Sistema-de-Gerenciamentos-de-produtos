@@ -1,0 +1,256 @@
+.button {
+    display: block;
+    margin: 20px auto;
+    background: crimson;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    padding: 6px 10px;
+}
+
+.popup-wrapper {
+    display: block;
+    background: rgba(238, 238, 238, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.popup {
+    font-family: sans-serif;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    margin: 10% auto;
+    padding: 20px;
+    background: rgb(169, 0, 0);
+    position: relative;
+}
+
+.popup a {
+    color: white;
+    cursor: pointer;
+    padding: 6px 10px;
+    text-decoration: none;
+    background: #213635;
+}
+
+.popup-close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+}
+
+#body {
+    padding: 0;
+    margin: 0;
+    background-color: #348e91;
+}
+
+#login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.erro {
+    color: #f00b0b;
+    width: 100%;
+}
+
+.card {
+    background-color: rgba(19, 19, 19, 0.3);
+    padding: 40px;
+    border-radius: 2px;
+    width: 280px;
+}
+
+.card-header {
+    padding-bottom: 50px;
+    opacity: 0.8;
+    color: #fff;
+}
+
+.card-header::after {
+    content: "";
+    width: 70px;
+    height: 1px;
+    background-color: #fff;
+    display: block;
+    margin-top: -17px;
+    margin-left: -5px;
+}
+
+.card-content label {
+    color: #fff;
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.card-content-area {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+.card-content-area input {
+    margin-top: 10px;
+    padding: 0 5px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #e1e1e1;
+    outline: none;
+    color: #fff;
+}
+
+.card-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.entrar {
+    width: 50%;
+    height: 40px;
+    background-color: #213635;
+    border: none;
+    color: #e1e1e1;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.card-footer a {
+    text-align: center;
+    font-size: 12px;
+    opacity: 0.8;
+    color: #fff;
+    text-decoration: none;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+.body {
+    background-color: #348e91;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    color: #f2f2f2;
+}
+
+table {
+    width: 800px; 
+    border-collapse: collapse;
+    color: #0a0c0d;
+}
+
+td {
+    border: 2px solid #0a0c0d;
+    padding: 5px;
+    text-align: center;
+}
+
+th {
+    border: 2px solid #0a0c0d;
+    padding: 5px;
+    text-align: center;
+    background: #0a0c0d;
+    color: #f2f2f2;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+    transition: ease 0.5s;
+}
+
+img:hover {
+    transform: scale(1.2);
+}
+
+button {
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    transition: ease 0.5s;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.2);
+}
+
+.tabela {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: line;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 30px;
+    width: 500px;
+}
+
+.btnSalvar {
+    float: left;
+}
+
+.btnInicio {
+    float: right;
+}
+
+.dados {
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 200px;
+    text-align: center;
+}
+
+label {
+    width: 100px;
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+
+.cadastro {
+    width: 500px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.botoesTd {
+    width: 50px;
+    background-color: #348e91;
+    border: none;
+}
+
+.botoesTd:hover {
+    transform: scale(1.05);
+}
+
+.verificaExclusao {
+    display: flex;
+    flex-direction: line;
+    justify-content: space-evenly;
+    margin: 20px;
+    width: 300px;
+}
